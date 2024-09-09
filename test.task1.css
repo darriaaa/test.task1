@@ -7,12 +7,14 @@
 body {
     margin: 0;
     justify-content: center;
+    font-family: 'DM Sans';
+    color: #36384F;
 }
 
 .container {
     width: 100%;
     max-width: 1440px;
-    background-color: brown;
+    background-color: #F2EFDB;
     margin: 0 auto; /* Выравнивание по центру блока */
     height: auto;
     position: relative;
@@ -25,11 +27,10 @@ body {
     width: 100%;
     max-width: 1160px;
     height: 269.35px;
-    background-color: aqua;
     margin: 0 auto; /* Центрируем блок .partners */
     margin-top: 2015px; /* Ваш отступ сверху */
     margin-left: 162px;
-    gap: 80px;
+    
 }
 
 /* Элементы внутри .partners */
@@ -41,24 +42,25 @@ body {
     flex-direction: column;
     gap: 28px;
     height: 269.35px;
+    width: 594px;
+}
+.frame63{
+    width: 486px; margin-left: 80px;
 }
 
 .image-with-margin{
-    margin-left: 50px;
-    margin-top: auto;
+    margin-left: 50px; margin-top: auto;
 }
 .wchus {
     display: flex; /* Активируем Flexbox */
     justify-content: center; /* Центрирование по горизонтали */
     align-items: center; /* Центрирование по вертикали */
     flex-direction: column; /* Размещение элементов в колонку (если нужно) */
-    
     width: 100%;
     max-width: 1202px;
     height: 753px;
-    background-color: rgb(146, 190, 255);
     margin: 0 auto; /* Центрируем блок .wchus */
-    margin-top: 200px; /* Отступ от контейнера */
+    margin-top: 160.09px; /* Отступ от контейнера */
     margin-left: 116px; /* Дополнительный отступ слева */
     box-sizing: border-box;
     gap: 48px; /* Отступы между элементами внутри */
@@ -82,7 +84,37 @@ body {
     height: 310px;
     border-radius: 24px;
     background-color: #6FA99166;
-
+}
+.p1{
+    font-size: 64px;           /* Размер шрифта */
+    font-weight: 700;          /* Толщина шрифта (жирный) */
+    line-height: 70.4px;       /* Высота строки */
+    text-align: left;          /* Выравнивание текста по левому краю */
+    width: 68px;               /* Ширина элемента */
+    height: 70px;              /* Высота элемента */
+    position: relative;        /* Обеспечивает работу свойств top и left */
+    top: 24px;                 /* Отступ сверху относительно нормального положения */
+    left: 24px;                /* Отступ слева относительно нормального положения */
+}
+.p2{
+    font-size: 24px;           /* Размер шрифта */
+    font-weight: 700;          /* Толщина шрифта (жирный) */
+    line-height: 31.2px;       /* Высота строки */
+    text-align: left; 
+}
+.p3{
+    font-size: 16px;           /* Размер шрифта */
+    font-weight: 400;          /* Толщина шрифта (жирный) */
+    line-height: 24px;       /* Высота строки */
+    text-align: left; 
+}
+.frame68{
+    width: 318px;           
+    height: 136px;          
+    position: relative;     
+    top: 60px;              
+    left: 24px;              
+    gap: 8px;
 }
 .frame65_2{
     width: 384px;
@@ -92,6 +124,15 @@ body {
     background-color: #6FA99166;
 
 }
+.frame69{
+    /* width: 342px;            */
+    height: 101px;          
+    position: relative;     
+    top: 33px;              
+    left: 24px;              
+    gap: 8px;
+}
+
 .right_p{
     display: flex;
     flex-direction: column;
@@ -101,8 +142,58 @@ body {
     width: 789px;
     height: 222px;
     border-radius: 24px;
-    background-color: #6FA99166;
     margin-left: 29px;
+    margin-top: 5px;
+    text-align: center;
+}
+.rectangle1{
+    background-color: #6FA991;
+    width: 475px;
+    height: 64px;
+    border-radius: 30px;
+    font-size: 48px; /* Размер шрифта */
+    font-weight: 700; /* Жирность шрифта */
+    line-height: 52.8px;
+   
+}
+.rectangle2{
+    background-color: #6FA991;
+    width: 46px;
+    height: 14px;
+    margin-left: 276px;  
+    z-index: 1;
+    position: absolute;
+
+}
+.rectangle2_1{
+    width: 281px;
+    background-color: #F2EFDB;
+    height: 14px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2;
+}
+.rectangle2_2{
+    margin-left: 317px;
+    background-color: #F2EFDB;
+    height: 14px;
+    border-radius: 30px;
+    position: absolute;
+    width: 50px;
+    margin-top: 0px;
+    z-index: 2;
+    
+}
+
+
+.rectangle3{
+    background-color: #6FA991;
+    width: 100%;
+    height: 144px;
+    border-radius: 30px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
 }
 .bottom_p{
     display: flex;
@@ -124,6 +215,14 @@ body {
     background-color: #6FA99166;
     margin-left: 24px;
 }
+.frame70{
+    width: 239px;           /* Ширина элемента 239 пикселей */
+    height: 174px;          /* Высота элемента 174 пикселя */
+    position: relative;    /* Используем абсолютное позиционирование */
+    top: 56px;             /* Отступ сверху 126 пикселей */
+    left: 24px;             /* Отступ слева 24 пикселя */
+    gap: 8px; 
+}
 .frame77 {
     width: 100%;
     display: grid;
@@ -131,30 +230,36 @@ body {
     gap: 132px;
     max-width: 1120px; 
 }
-
+.big_num{
+    font-size: 80px; font-weight: 700;  line-height: 80px; 
+}
+.title{
+    text-align: center;
+}
 .frame72, .frame73, .frame74 {
     /* Общие стили для блоков */
     display: flex; /* Flexbox для центрирования контента */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .frame72 {
-    width: 294px; /* Ширина блока */
-    height: 114px; /* Высота блока */
-    background-color: lightcoral; /* Пример цвета фона */
+    width: 294px; 
+    height: 114px; 
+   
 }
 
 .frame73 {
-    width: 281px; /* Ширина блока */
-    height: 140px; /* Высота блока */
-    background-color: lightseagreen; /* Пример цвета фона */
+    width: 281px;
+    height: 140px; 
+   
 }
 
 .frame74 {
-    width: 281px; /* Ширина блока */
-    height: 114px; /* Высота блока */
-    background-color: lightblue; /* Пример цвета фона */
+    width: 281px; 
+    height: 114px; 
+    
 }
 
 

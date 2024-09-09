@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    
+    width: 100%;
+    max-width: 1440px;
+}
+
+.partners{
+    width: 1160px;
+    height: 269.35px;
+    background-color: rgb(255, 145, 0);
+    
+
+}

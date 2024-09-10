@@ -275,3 +275,116 @@ body {
         text-align: center; /* Центрируем контент внутри */
     }
 }
+
+
+.frame83{
+    width: 1204px;
+    height: 171x;
+    margin-left: 118px;
+    /* background-color: bisque; */
+}
+
+.frame82{
+    width: 216px;
+    height: 36x;
+    margin-left: 300px;
+    /* background-color: rgb(255, 201, 135); */
+}
+
+
+
+.card{
+    width: 601px;
+    background-color: aqua;
+}
+/* контейнер слайдера */
+.swiper-container{
+    height: 301px;
+}
+
+/* .swiper-slide{
+    width: 1807px;
+   
+} */
+
+/* Повышение специфичности для пагинации */
+.swiper-container .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black; /* Переопределение */
+}
+
+.swiper-container .swiper-pagination-bullet-active {
+    background-color: rgb(0, 0, 0); /* Цвет активной точки */
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-slide {
+    width: 45%; /* Задайте нужную ширину */
+}
+
+
+
+/* ДЕЛАЕМ КНОПКИ */
+/* Скрываем текстовое содержание кнопок */
+.swiper-button-next::after, 
+.swiper-button-prev::after {
+    display: none;
+}
+
+/* Основная стилизация для кнопок */
+.swiper-button-next, 
+.swiper-button-prev {
+    width: 36px; /* Ширина кнопки */
+    height: 36px; /* Высота кнопки */
+    background-size: cover; /* Изображение будет масштабироваться для полного покрытия кнопки */
+    background-repeat: no-repeat; /* Отключаем повторение изображения */
+    background-position: center; /* Центрируем изображение внутри кнопки */
+    border-radius: 50%; /* Сделаем кнопки круглыми (опционально) */
+}
+
+.slider-buttons{
+    width: 216px;
+    position: absolute;
+    margin-left: 504px;
+    margin-top: 50px;
+    height: 36px;
+}
+
+/* Настройка кнопки "вперед" */
+.swiper-button-next {
+    background-image: url("img/right.png"); /* Подключаем изображение для кнопки "вперед" */
+    right: -50px; /* Сдвигаем кнопку вправо за пределы слайдера */
+    top: 50%; /* Центрируем кнопку вертикально */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+    position: absolute;
+}
+
+/* Настройка кнопки "назад" */
+.swiper-button-prev {
+    background-image: url("img/left.png"); /* Подключаем изображение для кнопки "назад" */
+    position: absolute;
+    left: -200px; /* Сдвигаем кнопку влево за пределы слайдера */
+    top: 50%; /* Центрируем кнопку вертикально */
+    transform: translateY(-50%); /* Центрирование по вертикали */
+    
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    position: static;
+}
+
+.slider-top{
+    height: 85px;
+}
+
+
+.frame82{
+    position: absolute;
+    width: 491px;
+    height: 85px;
+    margin-left: 835px;
+    font-size: 20px; font-weight: 500; line-height: 26px;
+}

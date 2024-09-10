@@ -281,34 +281,33 @@ body {
     width: 1204px;
     height: 171x;
     margin-left: 118px;
-    /* background-color: bisque; */
+    /* background-color: bisque;  */
 }
 
-.frame82{
-    width: 216px;
-    height: 36x;
-    margin-left: 300px;
-    /* background-color: rgb(255, 201, 135); */
-}
 
 
 
 .card{
-    width: 601px;
-    background-color: aqua;
+    width: 585px;
+    background-color: rgba(243, 197, 137, 0.4);
+
 }
+
+
 /* контейнер слайдера */
 .swiper-container{
     height: 301px;
+    
 }
 
-/* .swiper-slide{
-    width: 1807px;
-   
-} */
+.swiper-wrapper{
+    height: 301px;
+    position: absolute;
+}
 
 /* Повышение специфичности для пагинации */
 .swiper-container .swiper-pagination-bullet {
+    
     width: 10px;
     height: 10px;
     border: 1px solid black; /* Переопределение */
@@ -321,7 +320,13 @@ body {
 }
 
 .swiper-slide {
-    width: 45%; /* Задайте нужную ширину */
+    width: Hug (585px)px;
+    height: Hug (301px)px;
+    padding: 32px 46px 32px 46px;
+    gap: 16px;
+    border-radius: 24px;
+    
+
 }
 
 
@@ -387,4 +392,8 @@ body {
     height: 85px;
     margin-left: 835px;
     font-size: 20px; font-weight: 500; line-height: 26px;
+}
+
+.swiper-slide.active-slide {
+    background-color: rgba(243, 197, 137, 1); /* Цвет для выделения центрального слайда */
 }
